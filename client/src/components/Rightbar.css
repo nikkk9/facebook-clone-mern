@@ -1,0 +1,53 @@
+.rightbar {
+  flex: 0.6;
+  height: calc(100vh - 4rem);
+  margin: 0 1rem;
+  position: sticky;
+  top: 4rem;
+}
+.adContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.bday-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.bday-container img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.carousel {
+  width: 100%;
+}
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+  background-color: rgb(7, 48, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  z-index: 1;
+}
+.slick-arrow.slick-prev:hover,
+.slick-arrow.slick-next:hover {
+  background-color: rgb(49, 49, 56);
+}
+
+.carousel-img img {
+  width: 100%;
+  height: 30rem;
+}
+
+.slick-prev {
+  left: 0;
+}
+.slick-next {
+  right: 0;
+}

@@ -1,0 +1,24 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30rem;
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+
+.pass {
+  display: flex;
+  align-items: center;
+  width: 75%;
+}
+.loginContainer .pass .passShow {
+  background: none;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  width: 5rem;
+  padding: 0.5rem;
+  border: 1px solid gray;
+}

@@ -1,0 +1,44 @@
+.profileContainer {
+  display: flex;
+}
+.profileRight {
+  flex: 1;
+}
+.profileCover {
+  position: relative;
+  height: 22rem;
+}
+
+.profileUserImg {
+  position: absolute;
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 5rem;
+  border: 3px solid white;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profileInfo h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.profileInfo p {
+  margin-left: 1rem;
+}
+.profileInfoLink {
+  text-decoration: none;
+  color: black;
+}
+.profileInfoLink:hover {
+  text-decoration: underline;
+}

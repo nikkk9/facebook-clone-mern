@@ -1,0 +1,77 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1e736f;
+}
+.loginWrapper {
+  display: flex;
+  height: 70%;
+  width: 70%;
+}
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginLeft img {
+  width: 20rem;
+}
+.loginLeft span {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 20rem;
+  padding: 2rem;
+  background-color: #aec2c1;
+  border-radius: 0.2rem;
+}
+.loginContainer input {
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  border: 2px solid gray;
+  outline: none;
+  font-size: 0.9rem;
+  background-color: #cde1e0;
+}
+.loginBtn {
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1rem;
+  background-color: rgb(55, 108, 255);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+.loginBtn:hover {
+  background-color: rgb(57, 108, 247);
+}
+.loginContainer span {
+  color: rgb(57, 108, 247);
+  text-align: center;
+  cursor: pointer;
+}
+.loginBtnSignup {
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  width: 70%;
+  align-self: center;
+}
+.loginLink {
+  margin-left: 7rem;
+}
